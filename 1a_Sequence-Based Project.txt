@@ -1,0 +1,16 @@
+Practical 1: Create a Simple Sequence-Based Project
+AIM: 
+Use two input dialogs to store two numbers and display their addition in a message box.
+
+### Steps:
+1. Download and install **UiPath Studio Community** from [UiPath website](https://www.uipath.com/).
+2. Create an account and log in.
+3. Open **UiPath Studio**, click on **Process** under **New Project**.
+4. In the **Name** field, enter **Practical1**, add a description, and click **Create**.
+5. In the **Activities** panel (left side), search for **Sequence**, then drag and drop it into the **Designer Panel**.
+6. Click on **Activities**, search for **Input Dialog**, and drag two instances into the sequence.
+7. Click on each **Input Dialog** and enter the appropriate label text (e.g., "Enter first number").
+8. Click on the **Variables** panel at the bottom, create integer variables `num1` and `num2`.
+9. Search for **Assign**, drag it below the **Input Dialogs**, and set `result = num1 + num2`.
+10. Search for **Message Box**, drag it below the **Assign** activity, and set the text as `"Addition is " + result.ToString()`.
+11. Click **Run File** or press `CTRL + F6` to execute the project.

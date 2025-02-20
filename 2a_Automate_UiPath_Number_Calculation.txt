@@ -1,0 +1,13 @@
+A. Automate UiPath Number Calculation
+
+AIM: Use two input dialogs for storing two numbers and display addition, subtraction, multiplication, and division of them in a message box.
+
+Click on Process and create a process Practical2A, give the description as Number Calculation, and click on Create.
+
+Drag Sequence from Activities inside the Main Sequence. Then, drag two Input Dialog boxes inside the sequence.
+
+Fill in all the details in the Input Dialog boxes and store them in variables num1 and num2. Change their scope to Main Sequence.
+
+Now, drag a Message Box below the Input Dialog boxes and display the arithmetic operations of the two numbers in it.
+
+The output will display the results of addition, subtraction, multiplication, and division in a message box.

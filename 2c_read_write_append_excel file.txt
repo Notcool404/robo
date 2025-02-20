@@ -1,0 +1,21 @@
+AIM: Use an Excel file to read, write, and append data into it.
+
+Click on Process and create a process Practical6A, provide a description, and click on Create.
+
+In Activities, click on Filter and check the Classic Filter. Drag Excel Application Scope inside the Main Sequence.
+
+Create an Excel file, add some data inside it, and save it in the same folder as Practical6A. Select the file path in Excel Application Scope.
+
+Drag Read Range inside the Excel Scope. In its Properties, check Add Headers and create an output variable named datatable1. Set its scope to Main Sequence.
+
+To display the Excel data, drag Output Data Table, set datatable1 as its input, and create a Result variable for the output field of type String.
+
+Drag a Message Box and display the Result variable in it, which will show the records read from the Excel file via the Data Table.
+
+Now, drag Write Range and Append Range under the Message Box. In Write Range, set Sheet2, A1 as the cell reference and datatable1 as the input Data Table. Drag a Message Box after Write Range and display a message as "Write Range Done".
+
+Drag Build Data Table and create two column names: Items and Price. Add some sample data and click OK. Set dt as the output for the Build Data Table activity in Properties.
+
+In Append Range, select Sheet2 and set dt as the Data Table to be appended. Drag a Message Box and display the message "Append Range Done".
+
+Click on Run File to execute the automation.

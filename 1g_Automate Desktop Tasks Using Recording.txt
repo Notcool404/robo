@@ -1,0 +1,10 @@
+## Practical 7: Automate Desktop Tasks Using Recording
+### AIM:
+Use Desktop Recorder to empty the Recycle Bin.
+
+### Steps:
+1. Open **UiPath Studio**, click **Process**, name it **Desktop Recording**, and click **Create**.
+2. Click **App/Web Recorder** and start recording.
+3. Click on the **Recycle Bin** icon and select **Double Click**.
+4. Click **Empty Recycle Bin**, then click **Yes**.
+5. Click **Save Recording** and then **Run File**.

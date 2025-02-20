@@ -1,0 +1,13 @@
+## Practical 4: Count Names Starting with 'A'
+### AIM:
+Count how many names in an array start with the letter 'A'.
+
+### Steps:
+1. Open **UiPath Studio**, click **Process**, name it **Practical5A**, and click **Create**.
+2. Click on **Activities**, search for **Flowchart**, drag it into the **Main Sequence**.
+3. Click on **Variables**, create a new variable `names` (Array of Strings).
+4. Search for **For Each**, drag it into the flowchart.
+5. Click on **For Each**, go to **Properties**, and set `List of Items` to `names`.
+6. Drag an **If** activity inside the loop and set condition `currentItem.ToString.ToLower.StartsWith("a")`.
+7. Drag a **Message Box** below the loop and set it to display the count.
+8. Click **Run File** to execute the project.8

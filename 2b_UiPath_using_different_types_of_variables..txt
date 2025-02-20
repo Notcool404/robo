@@ -1,0 +1,24 @@
+AIM: Create an automation UiPath project using different types of variables.
+
+Click on Process and create a process Practical2B, give the description as Different types of variables, and click on Create.
+
+From Activities, drag Sequence, then drag Build Data Table inside it.
+
+Click on the Data Table, and the Build Data Table window will appear. Click on X to remove the default column, then click on + to add column headings Name and SAPID. Add some records inside them and click OK.
+
+Now, create a variable to store the output of the Data Table by clicking on the empty field beside Data Table in the Properties panel and pressing CTRL + K. This will create a DataTable type variable.
+
+To display the Data Table, drag Output Data Table and drop it below the Data Table. In Properties, create a Result variable that will store the table data as a string.
+
+Now, create the following variables:
+
+1) x of type Int32
+2) name of type String
+3) datetime of type DateTime (search it in variable type)
+4) y of type 
+
+Assign default values to them. Change their scope to Sequence so they are accessible within the sequence.
+
+Drag a Message Box, open the editor inside it, and write an output expression for all created variables.
+
+Run the file, and the output of different variables will be displayed.
