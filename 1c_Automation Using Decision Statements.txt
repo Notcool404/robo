@@ -1,0 +1,12 @@
+## Practical 3: Automation Using Decision Statements
+### AIM:
+Use an If-Else activity to determine if a number is even or odd.
+
+### Steps:
+1. Open **UiPath Studio**, click **Process**, name it **Practical3A**, and click **Create**.
+2. Click **Activities**, search for **Flowchart**, and drag it into the **Main Sequence**.
+3. Search for **Input Dialog**, drag it inside the flowchart, and set it as the start node.
+4. Click on **Activities**, search for **If**, and drag it below the **Input Dialog**.
+5. Click on the **If** activity, go to **Properties**, and enter condition `X mod 2=0`.
+6. Search for **Message Box**, drag two instances inside the If-Else block, and set the texts to "Even" and "Odd" respectively.
+7. Click **Run File** to execute the project.

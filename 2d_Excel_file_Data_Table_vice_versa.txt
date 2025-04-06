@@ -1,0 +1,28 @@
+AIM: Use an Excel file to extract data from it into a Data Table.
+
+Click on Process and create a process Practical6B_1, provide a description, and click on Create.
+
+Create an Excel sheet with a few records. Drag Flowchart inside the Main Sequence, then drag Excel Application Scope inside the flowchart and set it as the Start Node.
+
+Drag Read Range, browse the file path for Excel Application Scope, and in Read Range Properties, create a variable named excelDataTable as the output. Set its scope to Flowchart.
+
+Drag Output Data Table, set excelDataTable as the input, and create an output variable named Result.
+
+Display the Result variable in a Message Box. Set the scope of all variables to Flowchart.
+
+Click on Run File to execute the automation.
+
+----vice versa----
+
+AIM: Use a Data Table to write data from it into an Excel file.
+
+Click on Process and create a process Practical6B_2, provide a description, and click on Create.
+
+Drag Build Data Table inside the Main Sequence. Create some records inside it. For output, create a variable of DataTable type. Drag Excel Application Scope below it.
+
+Select the Excel file to write into.
+
+Drag Write Range, set Sheet1, A1 as the cell reference, and provide the DataTable variable as input.
+
+Click on Run File to execute the automation.
+

@@ -1,0 +1,12 @@
+1. Click on Process and create process Practical8B, give description and click on create.
+2. Go to Project then settings. Disable the Modern Design Experience from general tab and click ok.
+3. Click on Screen scrapping and select notepad file which is open in background.
+4. In scrapping method, use ‘FullText’ and refresh and click on Finish. Drag message box and display
+variable in it which store text.
+5. Run the file and it will display scrapped text in message box.
+6. For Native scrapping, perform same steps as above just select native from drop down of scraping
+method and scrap text from website.
+7. Run file and it will display text scrapped from website.
+8. For OCR scrapping, use same steps just select OCR from drop down of scraping method and scrap
+text from image.
+9. Run file and it will display scrapped text from below image.

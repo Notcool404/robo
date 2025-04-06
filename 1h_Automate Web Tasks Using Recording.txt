@@ -1,0 +1,12 @@
+
+Practical 8: Automate Web Tasks Using Recording
+AIM:
+Use Web Recorder to search for "Lavender flower" on Google and open an image.
+
+### Steps:
+1. Open **UiPath Studio**, click **Process**, name it **Web Recording**, and click **Create**.
+2. Open **Google Chrome** and keep it in the background.
+3. Click **Web Recorder**, then **Start Recording**.
+4. Click inside the **Google Search Bar**, then **Type Into** "Lavender flower".
+5. Click **Search**, wait for the results, then click on **Images**.
+6. Click on any image, then save and run the recording.

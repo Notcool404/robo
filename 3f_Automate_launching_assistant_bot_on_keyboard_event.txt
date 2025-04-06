@@ -1,0 +1,4 @@
+1. Click on Process and create process Practical9B, give description and click on create.
+2. Drag and drop trigger scope, drag hotkey trigger and set shift+tab as key trigger. In do section,
+record sequence for writing one paragraph in notepad and close the application.
+3. After all the recording click on run file.

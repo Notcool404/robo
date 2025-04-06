@@ -1,0 +1,23 @@
+Practical 2: Create a Flowchart-Based Project
+
+AIM:
+
+Take a number input from the user and check if it is even or odd using a message box.
+
+Steps:
+
+Open UiPath Studio, click Process, name it Practical1b, and click Create.
+
+Click on Activities, search for Flowchart, drag it into the Main Sequence.
+
+Click on Activities, search for Input Dialog, and drag it inside the flowchart.
+
+Click on Properties (right panel) and set a variable num1 to store the input.
+
+Search for Flow Decision, drag it below the Input Dialog, and connect them.
+
+Click on Flow Decision, open Properties, and enter condition num1 Mod 2 = 0.
+
+Search for Message Box, drag two instances below Flow Decision, connect one to True (Even) and one to False (Odd).
+
+Click Run File or press CTRL + F6 to execute the project.

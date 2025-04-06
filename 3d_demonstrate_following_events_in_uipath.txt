@@ -1,0 +1,20 @@
+1. Click on Process and create process Practical8A, give description and click on create.
+2. Check classic in filter. Drag Trigger Scope inside sequence. Then drag click trigger inside trigger
+scope and message box inn sequence. Indicate something on screen.
+3. In message box, type click trigger done. Run file, on click of mouse the trigger will be activated.
+4. Drag key press trigger and do the same steps as for click trigger and run file, on press of alt+enter
+key the trigger will be activated.
+5. For Image trigger, create new Process name it as Practical8A_ii, give description and save it.
+6. Drag Trigger Scope inside main sequence. Drag click image trigger inside trigger scope and select
+image in selector. Drag message box inside sequence and display message in it.
+7. Run file and keep the image selected open in background. On click of image the trigger will be
+activated.
+8. For System trigger, create new process Practical8a_iii, give description and click on create.
+9. Drag Trigger scope activity and inside it drag system trigger.
+10. First drag hotkey trigger in trigger scope and drag type into activity inside sequence and write
+something inside it. Run file, on pressing ‘ctrl+shift+S key trigger will be activated.
+11. Now, drag mouse trigger inside trigger scope and do same for sequence as for previous triggers.
+On mouse right click trigger will be activated.
+12. At last drag System trigger inside trigger scope and check keyboard and mouse or either or. Drag
+type into inside sequence of trigger, and type message. Click on run file, after pressing any key or
+mouse click the trigger will get activated automatically.

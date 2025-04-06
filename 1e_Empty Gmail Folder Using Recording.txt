@@ -1,0 +1,12 @@
+## Practical 5: Empty Gmail Folder Using Recording
+### AIM:88
+Use App/Web Recorder to automate deleting emails from Gmail's trash.
+
+### Steps:
+1. Open **UiPath Studio**, click **Process**, name it **Practical1C**, and click **Create**.
+2. Open **Google Chrome** and navigate to [Gmail](https://mail.google.com/).
+3. In UiPath, go to **Design Tab** → **App/Web Recording**.
+4. Click **Start Recording**, then switch to Chrome and log in.
+5. Click on **More** in Gmail, then **Bin**, and click **Empty Bin now**.
+6. Click **Esc** twice or click **Save** in the recorder window.
+7. Click **Run File** to execute the project.

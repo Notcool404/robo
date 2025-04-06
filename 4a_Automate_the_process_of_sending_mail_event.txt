@@ -1,0 +1,6 @@
+1. Click on Process and create process Practical9A, give description and click on create.
+2. In Activities, search for smtp then drag and drop send SMPT mail Message in main sequence.
+3. Write To, Subject and Body in SMTP activities. In properties panel, set host port number, Server
+name, login email ID and app password for it. Drag and drop message box and display success
+message or result of SMTP activity.
+4. Click on run file.

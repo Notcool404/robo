@@ -1,0 +1,8 @@
+1. Click on Process and create process Practical7C, give description and click on create.
+2. Drag click activity, double click and hover activity to main sequence.
+3. Indicate on screen for all and run file.
+4. Drag type into activity in sequence. Indicate something on screen and in Text field type name.
+5. Drag type secure text inside sequence. Indicate password field in chrome then create one secure
+string variable.
+6. Drag assign activity above type secure text and assign value to ‘secure’ variable.
+7. Click on run file. It will type the password provided into indicated field

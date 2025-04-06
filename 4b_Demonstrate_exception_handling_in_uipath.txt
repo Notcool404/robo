@@ -1,0 +1,4 @@
+1. Click on Process and create process Practical9C, give description and click on create.
+2. Drag and drop try catch block, drag type into block in try section and indicate notepad.
+3. In catch block drag message box to display exception. Select System.exception. In finally block,
+drag message box to display message as Exception handling done. Click on run file.

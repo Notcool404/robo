@@ -1,0 +1,16 @@
+1. Click on Process and create process Practical7B, give description and click on create.
+2. Create new sequence, name it as anchor base and enable classic from filter.
+3. Drag anchor base inside sequence.
+4. Drag find element in anchor position and type into in Activity position inside anchor base.
+5. Write text as something and run file. It will write text on element selected in find element activity.
+6. Create new sequence, name it as element scope. Drag element scope activity inside it.
+7. Drag click activity inside do block and select something on screen. Run file and it will click on file.
+8. Create new sequence, find child and drag find children activity inside it.
+9. Select something on screen and create output variable and display it in message box. Run file it will
+display UiElement which was found.
+10. Drag element exists into sequence, select some element from screen.
+11. Create variable for element exist or not then drag message box and display result in it. Run file, it
+will display Boolean value for output.
+12. Drag find element in sequence, select some element and display message in message box. Run file
+and it will display Ui element.
+13. Drag Indicate on Screen and run file. It will give clip cursor to indicate something on screen

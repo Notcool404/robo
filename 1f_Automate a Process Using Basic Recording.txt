@@ -1,0 +1,10 @@
+## Practical 6: Automate a Process Using Basic Recording
+### AIM:
+Record a basic sequence in Notepad using UiPath.
+
+### Steps:
+1. Open **UiPath Studio**, click **Process**, name it **Practical4A**, and click **Create**.
+2. Open **Notepad** and keep it in the background.
+3. Click **App/Web Recorder**, then **Start Recording**.
+4. Click inside **Notepad**, then **Type Into** "This is a basic recording example".
+5. Click **Save Recording** and then **Run File**.

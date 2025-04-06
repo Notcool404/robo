@@ -1,0 +1,9 @@
+1. Click on Process and create process Practical9D, give description and click on create.
+
+2. Create config.xlsx file and store username and password in it and save it in project folder.
+
+3. Drag read range from activities to main sequence. In properties, select range, give path and set sheet
+name. Create one variable ‘dt’ as output Data Table.
+
+4. Drag output data table, give ‘dt’ as input and create result as output variable. Display result in
+message box. Click on Run file.

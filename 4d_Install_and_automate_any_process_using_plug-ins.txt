@@ -1,0 +1,34 @@
+1. For PDF plugin, Click on Process and create process Practical8C_iii, give description and click on
+create.
+2. Click on Manage Packages, then click on All Packages and search for pdf.
+3. Install ‘UiPath.PDF.Activities’ package and click save. After installation it will be displayed in
+project dependencies.
+
+4. Create one pdf file where project is located.
+5. Search for read pdf text in activities, drag and drop it in main sequence. Locate the file.
+6. In properties, set output as pdf variable.
+
+7. Drag message box below pdf activities. Display pdf variable in it and Click on run file or ctrl+F6.
+
+8. For Word plugin, Create process Practical8C_vi, give description and click on create.
+
+9. Click on Manage Packages, then click on All Packages and search for word. Install
+‘UiPath.Word.Activities’ package and click save. After installation it will be displayed in project
+dependencies.
+
+10. Create one word document with something written inside it and save it in project folder.
+
+11. Drag and drop word application scope, then drag read text from word inside it.
+
+12. Browse for file path and create one variable named word in read text and display it using message
+box. Click on run file.
+
+13. For Excel plugin, create process Practical8C_V, give description and click on create.
+
+14. Click on Manage Packages, then click on All Packages and search for word. Install
+‘UiPath.Excel.Activities’ package and click save. After installation it will be displayed in project
+dependencies. If already installed, just update it.
+
+15. Check classic filter. Drag and drop excel application scope. Create one excel file and save it in
+project folder. Drag read cell set A1 as cell, Sheet Name as Sheet1and output variable as result. Now,
+drag and drop message box and display the output of read cell in it. Click on run file.
